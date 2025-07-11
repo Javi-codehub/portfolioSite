@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+
+  .nav_link {
+    display: none;
+  }
+
+  .Contactbtn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url('hamburger-icon.svg'); /* You should replace this with your icon */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container h1,
+  .container h2 {
+    font-size: 32px;
+  }
+
+  #stats ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+  }
+}
