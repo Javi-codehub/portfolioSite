@@ -60,6 +60,7 @@ nav {
 }
 .nav_link {
   font-size: 20px;
+  font-weight: 600;
   list-style: none;
   display: flex;
   gap: 30px;
@@ -244,9 +245,9 @@ nav {
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background-color: #dae1e6;
   color: #374151;
-  border: 1px solid #d1d5db;
+  border: 1px solid #7f7f80;
 }
 
 .btn-secondary:hover {
@@ -260,7 +261,8 @@ nav {
 .skills {
   display: flex;
   justify-content: center;
-  margin-top: 90px;
+  padding-bottom: 18%;
+  margin-top: 10px;
 }
 .skill-Holder {
   background-color: #fff;
@@ -268,8 +270,11 @@ nav {
   padding: 49px 29px 102px 47px;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 40px;
-  border-radius: 30px;  
+  margin-top: -100%;
+  margin-bottom: 10%;
+  border-radius: 30px;
+  
+
 
   box-shadow: 0 8px 30px rgba(7, 13, 32, 0.493);
   border: 1px solid rgba(255, 255, 255, 0.2);
