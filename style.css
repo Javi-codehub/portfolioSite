@@ -314,6 +314,13 @@ nav {
   gap: 25px;
   border: 10px solid white;
 }
+.card-white h3{
+  color: #2a5caf;
+}
+.card-white p{
+  color: #161718;
+  
+}
 /* Projects Section */
 .projectSec {
    background: linear-gradient(
